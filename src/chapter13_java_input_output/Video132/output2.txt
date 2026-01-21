@@ -1,0 +1,2 @@
+Hello, PrintWriter!
+Number: 10, String: Java

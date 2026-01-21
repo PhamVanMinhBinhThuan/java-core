@@ -1,0 +1,10 @@
+===== STUDENT REPORT =====
+Name         Score   Pass/Fail
+--------------------------
+hoidanit      8.50   PASS    
+Nam           6.00   PASS    
+An            9.20   PASS    
+Eric          7.50   PASS    
+-------------------------
+Average Score: 7.80
+=========================

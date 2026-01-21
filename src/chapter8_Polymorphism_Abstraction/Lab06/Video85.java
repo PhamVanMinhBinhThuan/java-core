@@ -5,14 +5,14 @@ public class Video85 {
 		Engineer myEngineer = new Engineer("AI", "Alice", 25);
 		Manager myManager = new Manager(10, "Bob", 40);
 
-		Person[] list = { myEngineer, myManager };
+		Person[] list = { myEngineer, myManager }; // upcasting
 
 		for (Person person : list) {
 			person.introduce();
 			person.work();
 
 			if (person instanceof Engineer) {
-				Engineer temp = (Engineer) person;
+				Engineer temp = (Engineer) person; // downcasting
 				temp.attendTraining("Cloud Computing");
 				temp.feedback();
 			} else if (person instanceof Manager) {
